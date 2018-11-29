@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/about.css"        type="text/css" rel="Stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>About</title>
+  </head>
+  <body>
+    <header >
+      <div class= "container-fluid fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light navbarsize">
+          <a class="navbar-brand" href="#"> <img src="./imagenes/logo2.png" width="80" height="80" class="d-inline-block align-top" alt="" id="logo"> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse col-position navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navplace">
+          <li class="nav-item nav-item-meu disabled link">
+            <a class="nav-link" href="./index.html">WORK <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item  nav-item-meu active">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item  nav-item-meu disabled link">
+          <a class="nav-link" href="./Contact.html">CONTACT </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </nav>
+    </header>
+
+    <div>
+      <h1> Hello, I'm Maria. </h1>
+      <h2> a UX Designer from Barcelona.</h2>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 align-self-start espaciostart" >
+          <p class="quote">"Never fall in love with an idea.
+            They’re whores.If the one you’re with isn’t doing the job,
+          there’s always, always, always another" <i> -Chip Kidd </i></p>
+        </div>
+        <div class="col-lg-6 algin-self-end espacioend">
+          <img class="img-fluid" src="./imagenes/About Photo.jpg" style="float:left;width:100%;height:640px;object-fit:cover;">
+        </div>
+      </div>
+    </div>
+
+    <section class="container">
+      <p class="intro">Curious about what makes people tick, I started my journey in the marketing industry because of my interest in understanding
+    buying patterns and attitudes as well as the psychology that encompasses particular marketing techniques that can influence a business.</p>
+      <p class="intro">When I discovered the world of UX, I became fascinated about it
+    (the blend of analysis and design was somehow what I missed, maybe because I’m a Gemini) so I enrolled into a UX design course at Ironhack. </p>
+      <p class="intro">I'm a fast learner, very motivated and I intend to apply user-centered design techniques to deliver long-lasting user experiences.</p>
+      <p class="intro">Other than that, I love traveling, learning from cultures and all sort of music.
+    My motto is adventure yourself into the unknown.</p>
+      <p class="intro">Thanks for the visit.</p>
+    </section>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 align-self-start espaciostart" >
+            <img class="img-fluid" src="./imagenes/Lines gif.gif" style="float:left;width:100%;height:640px;object-fit:cover;">
+        </div>
+      </div>
+    </div>
+<!--
+      <div class="container-fluid">
+        <div class="row">
+          </div>
+          <div class="col-lg-6 espaciostart">
+            <img class="img-fluid" src="./imagenes/TestingJordi2.png" style="float:left;width:100%;height:640px;object-fit:cover;">
+          </div>
+          <div class="col-lg-6 espacioend">
+          <img class="img-fluid" src="./imagenes/PrototypeGVS.png" style="float:right;width:100%;height:640px;object-fit:cover;">
+          </div> -->
+
+    <script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20|| document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "0px 10px ";
+        document.getElementById("logo").style.img = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "40px 10px";
+        document.getElementById("logo").style.img = "120px";
+      }
+    }
+    </script>
+
+
+</body>
+
+<footer>
+  <div class="footerstyle">
+    <p> <img src="./imagenes/copyright.png" width="10" height="10" alt="" <a > </p> 2018 By Maria Waggeh <a href="www.linkedin.com/in/maria-w-jamba-57974959"> <img src="./imagenes/Linkedin-Icon-white.png" width="20" height="20" alt="" <a > </p>
+  </div>
+</footer>
+
+</html>

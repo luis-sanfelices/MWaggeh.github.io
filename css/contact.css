@@ -1,0 +1,73 @@
+h1{
+  font-family: americantypewriter;
+  text-align: center;
+}
+h2{
+  font-family: americantypewriter;
+  text-align: center;
+  font-size:20px;
+  padding-bottom: 44px;
+}
+h3{
+  font-family: americantypewriter;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+header{
+    font-family: americantypewriter;
+    font-size: 18px;
+    font-weight:bold;
+    color: black;
+    padding-top: 36px;
+    padding-bottom: 180px;
+    background-color: #FFFFFF;
+  }
+
+footer{
+  background-color:#332F30;
+}
+  .nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-link disabled {
+    color: black;
+  }
+
+  .navbar-nav {
+    background-color: #FFFFFF;
+  }
+  .navbar-brand{
+    padding-left: 40px;
+  }
+
+  .nav-item{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+body{
+  background-color: #FFFFFF;
+}
+
+  #navbar{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    padding:40px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+  }
+
+
+  .footerstyle{
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: montserrat;
+    font-size: 12px;
+  }

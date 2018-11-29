@@ -1,0 +1,172 @@
+h1{
+  font-family: avenir;
+  text-align: center;
+}
+h2{
+  font-family: avenir;
+  text-align: center;
+  font-size:20px;
+  padding-bottom: 44px;
+}
+h3{
+  font-family: avenir;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+header{
+  font-family: americantypewriter;
+  font-size: 18px;
+  font-weight:bold;
+  color: black;
+  padding-top: 36px;
+  padding-bottom: 180px;
+  background-color: #FFFFFF;
+}
+body{
+  background-color: #FFFFFF;
+}
+
+footer{
+  background-color: #332F30;
+}
+
+.nav-item-meu{
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+.show .nav-item-meu {
+  text-align: center;
+}
+
+.nav-link disabled {
+  color: black;
+}
+
+.navbar-nav {
+  background-color: #FFFFFF;
+}
+
+.navbar-brand{
+  padding-left: 40px;
+}
+
+.container-fluid{
+  background-color: #F9F6EF;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.row{
+  /* width:auto; */
+}
+
+.projectcolor1{
+  background-color: #f8f9fa;
+  background-image: linear-gradient(to bottom right, #f8f9fa,#f8f9fa);
+  z-index: 100;
+  display: flex;
+  }
+
+.projectcolor2{
+  background-color: #3981BE;
+  background-image: linear-gradient(to bottom right, #AE7923,#D7BC6D);
+}
+
+
+p{
+  font-family: avenir;
+  color: black;
+  font-size: 18px;
+}
+
+.projectview{
+  color: white;
+  text-decoration: underline;
+  transition: 0.4s ease;
+}
+
+.viewproject{
+  color: white;
+  text-decoration: underline;
+  transition: 0.4s ease;
+}
+
+.projectdescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 640px;
+  text-align: center;
+}
+
+.imageposition{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 640px;
+  text-align: center;
+}
+
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.link:hover:after{
+  width:100%;
+  left: 0;
+  background: #fff;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding:40px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+
+.grow-shadow {
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.grow-shadow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+      transform: scale(1.2);
+}
+
+
+.footerstyle{
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+  font-family: americantypewriter;
+  font-size: 12px;
+}
+
+.flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
